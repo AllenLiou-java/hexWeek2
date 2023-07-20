@@ -1,4 +1,11 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+.footer {
+  background-color: var(--color2);
+  padding: 40px 0;
+
+  p {
+    color: var(--color1);
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 150%;
+  }
 }

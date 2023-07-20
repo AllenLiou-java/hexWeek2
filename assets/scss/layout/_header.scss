@@ -1,4 +1,30 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.header {
+  background: var(--color2);
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 40px;
+
+    li {
+      max-width: 306px;
+      width: 100%;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: #D1D1D1;
+      }
+    }
+
+    li:last-child {
+      max-width: 196px;
+      text-align: right;
+    }
+
+    li:hover a {
+      opacity: 0.8;
+    }
+  }
 }

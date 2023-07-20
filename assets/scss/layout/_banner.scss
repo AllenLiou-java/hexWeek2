@@ -1,0 +1,71 @@
+.banner {
+    padding: 72px 0;
+    background: #000;
+
+
+
+    .container {
+        display: flex;
+
+        .people-photo {
+            width: 636px;
+            height: 848px;
+            background-image: url('../../../assets/images/people.png');
+            background-size: contain;
+            background-position: center center;
+            background-repeat: no-repeat;
+            margin-right: 24px;
+        }
+
+        .banner-content {
+            max-width: 636px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h2 {
+                color: #FFF;
+                font-size: 64px;
+                line-height: 150%;
+                text-transform: uppercase;
+
+                span {
+                    font-size: 80%;
+                }
+            }
+
+            h1 {
+                color: var(--color3);
+                font-size: 128px;
+                line-height: 150%;
+                align-self: flex-end;
+
+                span {
+                    font-size: 80%;
+                    text-transform: uppercase;
+                }
+            }
+
+            a {
+                padding: 12px 24px;
+                display: inline-block;
+                background: #FFF;
+                border-radius: 32px;
+                align-self: flex-end;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 80%;
+                color: var(--color2);
+
+                img {
+                    margin-left: 4px;
+                }
+
+                &:hover {
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+}

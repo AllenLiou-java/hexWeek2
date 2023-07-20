@@ -1,0 +1,278 @@
+.intro {
+    background-image: url('../../../assets/images/background-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .container {
+        display: flex;
+        padding: 160px 0;
+
+        .intro__textContent {
+            max-width: 526px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            h3 {
+                color: var(--color1);
+                font-size: 64px;
+                line-height: 150%;
+                text-transform: uppercase;
+                margin-bottom: 36px;
+
+                span {
+                    font-size: 80%;
+                }
+            }
+
+            p {
+                color: var(--color1);
+                font-size: 24px;
+                line-height: 150%;
+                text-transform: uppercase;
+                margin-bottom: 32px;
+
+                span {
+                    font-size: 80%;
+                }
+            }
+
+            .sparkles {
+                align-self: start;
+            }
+
+            .sparkles img:nth-child(2) {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+
+        .intro__images {
+            max-width: 746px;
+            display: flex;
+
+            .intro-photo {
+                max-width: 196px;
+                width: 100%;
+                height: auto;
+            }
+
+            .intro-photo:nth-of-type(3) {
+                max-width: 306px;
+            }
+        }
+
+    }
+}
+
+
+
+.abount-me {
+    display: flex;
+    padding: 160px 0;
+
+    ul.ability {
+        max-width: 636px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-right: 134px;
+        align-content: center;
+
+        li.ability__item {
+            max-width: 306px;
+            width: 100%;
+            padding: 16px;
+            color: #15161D;
+            border: 1px solid #E3E3E3;
+            box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+            text-transform: uppercase;
+
+            h4 {
+                font-size: 20px;
+                line-height: 150%;
+            }
+
+            p {
+                line-height: 150%;
+
+            }
+
+            &:nth-of-type(2n+1) {
+                margin-right: 24px;
+            }
+
+            &:nth-of-type(1),
+            &:nth-of-type(2) {
+                margin-bottom: 24px;
+            }
+
+            span {
+                font-size: 80%;
+            }
+        }
+    }
+
+    .content {
+        max-width: 526px;
+        width: 100%;
+
+        h3 {
+            font-size: 64px;
+            line-height: 150%;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 24px;
+            line-height: 150%;
+        }
+
+        span {
+            font-size: 80%;
+        }
+    }
+}
+
+.contact-me {
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    padding: 96px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h3 {
+            font-size: 64px;
+            line-height: 150%;
+            color: var(--color1);
+            height: 96px;
+
+            img {
+                margin-left: 16px;
+            }
+        }
+
+        ul.contact {
+            display: flex;
+
+            li.contact__item {
+                border-radius: 40px;
+                overflow: hidden;
+
+                a {
+                    cursor: pointer;
+
+                    .img {
+                        width: 162px;
+                        height: 162px;
+                        background-size: cover;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                    }
+
+                    .bg-discord {
+                        background-image: url('../../../assets/images/discord.png');
+                    }
+
+                    .bg-instagram {
+                        background-image: url('../../../assets/images/instagram.png');
+                        transform: scale(115%);
+                    }
+
+                    .bg-message {
+                        background-image: url('../../../assets/images/message.png');
+                        transform: scale(115%);
+                    }
+                }
+
+                &:hover {
+                    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.90), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                }
+
+                &:nth-of-type(2) {
+                    margin: 0 20px;
+                }
+            }
+
+
+        }
+    }
+}
+
+.my-project {
+    padding: 160px 0;
+
+    h3 {
+        font-size: 64px;
+        line-height: 150%;
+        max-width: 746px;
+        margin-left: auto;
+    }
+
+    .projects {
+        display: flex;
+
+        .projects__detail {
+            display: flex;
+
+            .content {
+                max-width: 636px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                p {
+                    color: #15161D;
+                    line-height: 150%;
+                    text-transform: uppercase;
+                }
+
+                a {
+                    padding: 12px 24px;
+                    border-radius: 32px;
+                    background-color: var(--color2);
+                    align-self: start;
+                    color: var(--color1);
+                    text-decoration: none;
+
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+
+        .projects__others {
+            display: flex;
+        }
+    }
+}
+
+
+.mb-1 {
+    margin-bottom: 4px;
+}
+
+.mb-4 {
+    margin-bottom: 16px;
+}
+
+.ml-1 {
+    margin-left: 4px;
+}
+
+.mb-9 {
+    margin-bottom: 36px;
+}
+
+.mr-6 {
+    margin-right: 24px;
+}
+
+.mb-6 {
+    margin-bottom: 24px;
+}

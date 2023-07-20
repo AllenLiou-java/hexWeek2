@@ -1,3 +1,28 @@
-.index-title {
-  font-size: 120px;
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+:root {
+  --color1: #FFFFFF;
+  --color2: #000000;
+  --color3: #00FFA3;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bruno Ace', 'cursive';
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+
+
+img {
+  vertical-align: middle;
 }
