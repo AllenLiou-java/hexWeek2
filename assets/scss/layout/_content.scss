@@ -1,5 +1,5 @@
 .intro {
-    background-image: url('../../../assets/images/background-img.png');
+    background-image: url('/assets/images/background-img.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -175,16 +175,16 @@
                     }
 
                     .bg-discord {
-                        background-image: url('../../../assets/images/discord.png');
+                        background-image: url('/assets/images/discord.png');
                     }
 
                     .bg-instagram {
-                        background-image: url('../../../assets/images/instagram.png');
+                        background-image: url('/assets/images/instagram.png');
                         transform: scale(115%);
                     }
 
                     .bg-message {
-                        background-image: url('../../../assets/images/message.png');
+                        background-image: url('/assets/images/message.png');
                         transform: scale(115%);
                     }
                 }
